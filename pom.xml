@@ -25,26 +25,6 @@
 				<artifactId>maven-source-plugin</artifactId>
 				<version>2.2.1</version>
 			</plugin>
-			<!-- plugin>
-				<artifactId>maven-antrun-plugin</artifactId>
-				<version>1.7</version>
-				<executions>
-					<execution>
-						<id>install to $CATALINA_HOME/lib</id>
-						<phase>install</phase>
-						<configuration>
-							<target name="install-to-catalina-lib" if="catalina.home">
-								<copy todir="${catalina.home}/lib" flatten="true" verbose="true">
-									<file file="${project.build.directory}/${project.artifactId}-${project.version}.${project.packaging}" />
-								</copy>
-							</target>
-						</configuration>
-						<goals>
-							<goal>run</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin-->
 		</plugins>
 	</build>
 </project>
