@@ -12,7 +12,7 @@ public class Demo implements Runnable {
     private static final File BP_DIR = new File("C:\\BondProbe\\bin");
 
     private final String[] bpData = {
-            "CALCTYPE=112=SECURITYID=325=SECTYPE=SBAM-SEMI-30/360=RV=103.875=SETTDT=10/15/2013=COUPON=7.75="
+            "CALCTYPE=112=SECURITYID=325=SECTYPE=US CORP=RV=103.875=SETTDT=10/15/2013=COUPON=7.75="
                     + "PAR=1000000.0=ODD1DT=6/15/2010=ISSDT=6/11/2010=MATDT=10/18/2013",
             "CALCTYPE=112=SECURITYID=1288=SECTYPE=US CORP=RV=102.0=SETTDT=10/15/2013=COUPON=0.0="
                     + "PAR=1000000.0=ODD1DT=6/19/2007=ISSDT=12/19/2006=MATDT=10/18/2013",
